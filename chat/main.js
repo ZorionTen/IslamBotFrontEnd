@@ -25,6 +25,7 @@ $(".form button").on("click", function () {
             writeMessage(data);
         },
         error: function (data) {
+            console.log(data);
             writeMessage(ERROR_CANT_THINK);
         },
         complete:(function (data) {

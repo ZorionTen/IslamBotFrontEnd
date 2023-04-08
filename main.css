@@ -1,78 +1,35 @@
-body{
-    background-color: #222222;
-    color: white;
-}
-#main {
-    width: 80vw;
-    margin:auto;
-    border-radius: 10px;
-    background-color: #ffffff;
-    overflow: hidden;
-}
-#chat {
-    height: 85vh;
-    border-radius: 10px;
-    background-color: #144545;
-    color: white;
-    margin-bottom: 10px;
-    overflow-y: scroll;
+header {
+    background-color: #333;
+    color: #fff;
     padding: 10px;
-}
-.form{
-    margin: 10px;
-    width: 100%;
-    height:5vh;
-}
-.form input {
-    width:  88%;
-    height: 100%;
-    border: none;
-    outline: none;
-}
-.form button {
-    height: 100%;
-    width: 8%;
-    background-color: orange;
-    border-radius: 20px;
-    color: whitesmoke;
-    font-weight: bolder;
-    border: none;
-    box-shadow: 2px 2px 2px gray;
-}
-.form button:active {
-    transition: 0.1s;
-    box-shadow: 0px 0px 0px gray;
-    translate: 4px 4px;
-}
-.message{
-    padding:10px;
-}
-.message .content{
-    display: inline-block;
-    min-width: 100px;
-    max-width: 70%;
+    text-align: center;
 }
 
-.message-bot{
-    text-align: right;
-    padding:10px;
-}
-.message .sender{
-    font-size: smaller;
-    font-weight: bolder;
-    color: orange;
-}
-.message-bot .content{
-    text-align: left;
-    padding:10px;
-    background-color: rgb(24, 24, 44);
-    color: white;
-    border-radius: 20px;
+h1 {
+    margin-top: 40px;
+    font-size: 5em;
+    text-align: center;
+    font-weight: normal;
 }
 
-.message-you .content{
-    padding:10px;
-    background-color: rgb(3, 26, 33);
-    color: white;
-    border-radius: 20px;
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.links button {
+    flex: 1;
+    flex-grow: 1;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
 }

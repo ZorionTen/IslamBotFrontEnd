@@ -1,0 +1,59 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+textarea {
+    flex: 1;
+    min-width: 30vw;
+    min-height: 40vh;
+    background-color: #2e2e2e;
+    color: white;
+    border: solid 2px gray;
+    padding: 15px;
+    border-radius: 20px;
+    resize: none;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+#blacklist {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#modal {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    transition: 1s;
+}
+
+#modal p {
+    font-size: 5em;
+}
